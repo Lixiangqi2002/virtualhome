@@ -9,14 +9,14 @@ from IPython.core.display import HTML
 
 import sys
 
-sys.path.append('../simulation')
+sys.path.append('/data/code/virtualhome/virtualhome/simulation')
 from unity_simulator.comm_unity import UnityCommunication
 from unity_simulator import utils_viz
 
 comm = UnityCommunication()
 
 def setup():
-    os.chdir('../simulation/')
+    os.chdir('/data/code/virtualhome/virtualhome/simulation/unity_simulator/')
     if platform == 'darwin':
       os.system('open ./exec_mac.app')
     else:

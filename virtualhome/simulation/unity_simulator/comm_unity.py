@@ -1,4 +1,3 @@
-
 import base64
 import collections
 import time
@@ -6,6 +5,8 @@ import io
 import json
 import requests
 from PIL import Image
+import os
+os.environ["OPENCV_IO_ENABLE_OPENEXR"] = "1"
 import cv2
 import numpy as np
 import glob

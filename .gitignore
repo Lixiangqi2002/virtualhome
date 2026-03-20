@@ -170,3 +170,5 @@ test*/
 test*.py
 data/*
 .vscode/
+virtualhome/dataset/programs_processed_precond_nograb_morepreconds
+virtualhome/simulation/unity_simulator/

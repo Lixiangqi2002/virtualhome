@@ -169,7 +169,7 @@ class UnityLauncher(object):
                     subprocess_args += ["-nographics"]
 
                 file_path = os.getcwd()
-                subprocess_args += ["-http-port=" + str(self.port_number), "-logFile {}/Player_{}.log".format(file_path, str(self.port_number))]
+                subprocess_args += ["-http-port=" + str(self.port_number), "-logFile", "{}/Player_{}.log".format(file_path, str(self.port_number))]
                 subprocess_args += args
 
                 if logging:

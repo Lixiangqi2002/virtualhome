@@ -27,7 +27,7 @@ setuptools.setup(
         'idna==2.8',
         'matplotlib>=3.4.2',
         'networkx==2.3',
-        'numpy>=1.19.3',
+        'numpy>=1.19.3,<2',
         'opencv-python==4.8.1.78',
         'pillow>=8.3.1',
         'plotly==3.10.0',

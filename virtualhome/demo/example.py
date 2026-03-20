@@ -1,6 +1,6 @@
 import json
 import sys
-sys.path.append('../simulation')
+sys.path.append('/data/code/virtualhome/virtualhome/simulation')
 import evolving_graph.utils as utils
 from evolving_graph.execution import Relation, State
 from evolving_graph.scripts import read_script
